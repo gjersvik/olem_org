@@ -16,6 +16,17 @@
   </head>
  
   <body>
+    <picture>
+      <source media="(max-width:480px) and (max-height:320px)"
+              srcset="img/beach-480-320.jpg"></source>
+      <source media="(max-width:960px) and (max-height:640px)"
+              srcset="img/beach-960-640.jpg"></source>
+      <source media="(max-width:1200px) and (max-height:800px)"
+              srcset="img/beach-1200-800.jpg"></source>
+      <source media="(max-width:1920px) and (max-height:1280px)"
+              srcset="img/beach-1920-1280.jpg"></source>
+      <img src="img/beach-1200-800.jpg" alt="Big background of a beach.">
+    </picture>
     <h1>Ole Martin Gjersvik</h1>
     <h2><a href="mailto:olem@olem.org">olem@olem.org</a></h2>
     <div id="profile_bar"></div>
